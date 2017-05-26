@@ -15,12 +15,25 @@
 	            >
             	</v-text-field>
             	<v-text-field
-	              	name="input-1"
-	              	label="Senha"
-	              	id="testing"
-	            >
-            	</v-text-field>
+	              name="input-10-1"
+	              label="Senha"
+	              hint="Digite as credenciais"
+	              v-model="password"
+	              type="password"
+            	></v-text-field>
+
+            	<v-btn dark flat class="btnPurple">Entrar</v-btn>
 			</div>	
+
+			<div class="pull-bottom">
+				<div class="m-b-30 p-r-80 sm-m-t-20 sm-p-r-15 sm-p-b-20 clearfix">
+					<div class="col-sm-9 no-padding m-t-10">
+						<p>
+							dsa
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </template>

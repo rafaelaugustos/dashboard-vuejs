@@ -110,3 +110,21 @@ p{
 .login-wrapper .login-container img{
 	max-width: 250px;
 }
+
+.btnPurple{
+    background: #6d5cae !important;
+    color: #FFF;
+}
+
+.pull-bottom{
+    position: absolute!important;
+    bottom: 0;
+}
+
+.m-t-10 {
+    margin-top: 10px;
+}
+
+.no-padding {
+    padding: 0px!important;
+}
