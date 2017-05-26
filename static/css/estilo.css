@@ -37,6 +37,10 @@ p{
     white-space: normal;
 }
 
+h2{
+    font-size: 2em;
+}
+
 .m-t-30 {
     margin-top: 30px;
 }
@@ -119,6 +123,8 @@ p{
 .pull-bottom{
     position: absolute!important;
     bottom: 0;
+    text-align: center;
+    width: 100%;
 }
 
 .m-t-10 {
@@ -127,4 +133,36 @@ p{
 
 .no-padding {
     padding: 0px!important;
+}
+
+.m-b-30 {
+    margin-bottom: 30px;
+}
+
+.p-r-80 {
+    padding-right: 80px!important;
+}
+
+.formLogin{
+    margin-top: 50px;
+}
+
+.login-wrapper .bg-caption {
+    width: 500px;
+}
+
+.text-white {
+    color: #fff!important;
+}
+
+.p-l-20 {
+    padding-left: 20px!important;
+}
+
+
+
+@media(min-width: 992px){
+    .col-md-2 {
+        width: 16.66666667%;
+    }
 }
